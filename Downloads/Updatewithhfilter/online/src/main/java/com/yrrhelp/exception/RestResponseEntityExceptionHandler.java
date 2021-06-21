@@ -12,6 +12,8 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 public class RestResponseEntityExceptionHandler 
 								extends ResponseEntityExceptionHandler {
+	
+	//@ExceptionHandler()
 
 	@ExceptionHandler(value 
 			= { NullPointerException.class,
